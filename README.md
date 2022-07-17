@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/denisix/crypto-token-info)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/denisix/crypto-token-info)
+
 # crypto-token-info
 The microservice provides token details based on chain ID and token Address
 
@@ -13,7 +17,7 @@ npm start
 ```
 
 # API
-Please check the following queries to get a basic idea how to use them this microservice:
+Please check the following queries to get a basic idea how to use them:
 
 ```json
 $ curl -s http://0:3000/token/erc20/rin/1/0xe27826eE778B6F78a49a686dA7D64f6E7b084a4f | json_pp
