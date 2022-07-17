@@ -1,0 +1,42 @@
+{
+  "name": "crypto-token-info",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": "git@github.com:denisix/crypto-token-info.git",
+  "author": "denisix",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests/1_info.js --timeout 1000",
+    "start": "ts-node src",
+    "build": "tsc --removeComments",
+    "postinstall": "rm -rf ./node_modules/mew/src"
+  },
+  "keywords": [
+		"bsc tokens",
+    "erc20 tokens",
+    "erc20 api tokens",
+    "erc20 microservice",
+    "ethereum tokens info",
+    "tokens info",
+    "mew token info",
+    "token details",
+    "token chain",
+    "crypto token"
+  ],
+  "dependencies": {
+    "ethereumjs-util": "^7.1.5",
+    "mew": "MyEtherWallet/ethereum-lists#50f6aa9ec3633029ed49db4764896de1c7eb3030",
+    "polka": "^0.5.2",
+    "token-directory": "0xsequence/token-directory#117cdb0dc86da89c3c0e120f636da03ddcc48b84"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.5",
+    "@types/polka": "^0.5.4",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
