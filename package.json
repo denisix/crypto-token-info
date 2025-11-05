@@ -28,15 +28,15 @@
     "ethereumjs-util": "^7.1.5",
     "mew": "MyEtherWallet/ethereum-lists#50f6aa9ec3633029ed49db4764896de1c7eb3030",
     "polka": "^0.5.2",
-    "token-directory": "0xsequence/token-directory#117cdb0dc86da89c3c0e120f636da03ddcc48b84"
+    "@0xsequence/token-directory": "^1.1.14"
   },
   "devDependencies": {
-    "@types/node": "^18.0.5",
-    "@types/polka": "^0.5.4",
-    "chai": "^4.3.6",
-    "chai-http": "^4.3.0",
-    "mocha": "^10.0.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.7.4"
+    "@types/node": "^24.10.0",
+    "@types/polka": "^0.5.8",
+    "chai": "^6.2.0",
+    "chai-http": "^5.1.2",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
